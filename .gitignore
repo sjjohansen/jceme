@@ -1,1 +1,16 @@
-*.class
+target/
+.classpath
+.project
+.wtpmodules
+.DS_Store
+log/
+.settings/
+*.swp
+output/
+*.jks
+jks/
+krb/
+*.keytab
+.idea/
+*.iml
+dependency-reduced-pom.xml
