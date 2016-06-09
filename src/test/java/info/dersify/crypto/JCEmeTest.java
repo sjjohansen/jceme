@@ -2,8 +2,6 @@ package info.dersify.crypto;
 
 import org.junit.Test;
 
-import info.dersify.crypto.JCEme;
-
 import java.security.NoSuchAlgorithmException;
 
 public class JCEmeTest {
