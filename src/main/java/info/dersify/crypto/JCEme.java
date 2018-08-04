@@ -17,10 +17,8 @@ class JCEme {
     }
   }
 
-  public static int maxKeyLen(String algo) throws NoSuchAlgorithmException {
-    int maxKeyLen = 0;
-    maxKeyLen = Cipher.getMaxAllowedKeyLength(algo);
-    return maxKeyLen;
+  static int maxKeyLen(String algo) throws NoSuchAlgorithmException {
+    return Cipher.getMaxAllowedKeyLength(algo);
   }
 }
 
